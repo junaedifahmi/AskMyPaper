@@ -1,0 +1,12 @@
+db:
+  local: "/db/"
+  index_name: "faq"
+
+model:
+  base_url: http://localhost:11434
+  model: mistral
+  embeddings: llama2
+
+prompt: 
+  file: system_prompt.txt
+
