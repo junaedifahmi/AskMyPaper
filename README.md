@@ -1,7 +1,8 @@
 # Ask My Paper
 
-A simple RAG application that allows you to chat with your PDF. Currently support to ask about your ArXiv journal.
+A Local RAG Application which runs totally offline without internet. Utilizing Ollama as the LLM and Unstrutured to handle document handling.
 
 ## How to RUN
-
-## How to 
+```
+docker-compose up
+```
